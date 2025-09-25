@@ -1,0 +1,123 @@
+/* ARTICLE */
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 50px;
+    color: #03045e;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+}
+
+/* ACCROCHE TRAVAUX */
+.accroche_travaux {
+    max-width: 900px;       
+    margin: 0 auto;         
+    padding: 0 20px;        
+    color: #03045e;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.5s;         
+}
+
+.accroche_travaux p {
+    font-size: 1.1rem;
+    line-height: 1.6;       
+    margin-bottom: 20px;    
+    text-align: justify;
+    text-align: center; 
+}
+
+/* PROJETS */
+.projet {
+    background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px auto 40px;
+    padding: 20px;
+    max-width: 900px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1s;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.projet-header {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.arrow {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 4rem;
+    color: #0077b6;
+    transition: transform 0.3s ease;
+}
+
+.projet.open .arrow {
+    transform: rotate(180deg);
+}
+
+.projet-header h3 {
+    font-size: 125%;
+}
+
+.projet-header img {
+    width: 700px;
+    object-fit: contain;
+}
+
+.technos {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.projet-details {
+  max-height: 0;
+  overflow: hidden;
+  text-align: justify;
+  margin-top: 0;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease, margin-top 0.5s ease;
+}
+
+.projet-details strong {
+    font-size: 125%;
+}
+
+.projet-details.open {
+  max-height: 500px; 
+  margin-top: 15px;
+  opacity: 1; 
+}
+
+
+.btn-projet {
+    display: block;
+    margin: 15px auto 0;
+    padding: 8px 15px;
+    background: #0077b6;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s;
+    text-align: center;
+    width: fit-content;
+}
+
+.btn-projet:hover {
+    background: #03045e;
+}
