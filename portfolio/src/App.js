@@ -13,11 +13,13 @@ import Work from './parties_communes/Work';
 import Mentions from './parties_communes/Mentions';
 import Privacy from './parties_communes/Privacy';
 import Contact from './parties_communes/Contact';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />

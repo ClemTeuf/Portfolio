@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import API_BASE_URL from "./config";
 import "./Contact.css";
 
 function Contact() {
@@ -14,7 +15,7 @@ function Contact() {
   useEffect(() => {
     async function loadCaptcha() {
       try {
-        const res = await fetch("/captcha");
+        const res = await fetch(`${API_BASE_URL}/captcha`);
         const data = await res.json();
         setCaptchaQuestion(data.question);
         setCaptchaAnswer(data.answer);
@@ -40,7 +41,7 @@ function Contact() {
     const payload = { ...formData, captchaQuestion };
 
     try {
-      const res = await fetch("/contact", {
+      const res = await fetch(`${API_BASE_URL}/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
@@ -48,15 +49,16 @@ function Contact() {
       const result = await res.json();
 
       if (result.success) {
-        showToast("Message envoyé ! Merci");
+        showToast("Un mail de confirmation a été envoyé. Merci de cliquer sur le lien pour valider votre message.");
         setFormData({ name: "", email: "", message: "", captcha: "" });
 
-        // Recharger captcha
-        const captchaRes = await fetch("/captcha");
+        const captchaRes = await fetch(`${API_BASE_URL}/captcha`);
         const captchaData = await captchaRes.json();
         setCaptchaQuestion(captchaData.question);
         setCaptchaAnswer(captchaData.answer);
-      } else showToast(result.message || "Erreur lors de l'envoi");
+      } else {
+        showToast(result.message || "Erreur lors de l'envoi");
+      }
     } catch (err) {
       showToast("Impossible de contacter le serveur.");
     } finally {

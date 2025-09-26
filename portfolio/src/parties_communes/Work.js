@@ -32,7 +32,7 @@ function Work() {
         <Project
             img={mon_pp}
             title="Mon Programme Perso"
-            techno="🟧 HTML · 🎨 CSS · ⚡ JS"
+            techno="HTML · CSS · JS"
             description={
                 <>
                     Dans le cadre de mon autoformation en développement web fullstack, j’ai créé une application permettant :
@@ -60,7 +60,7 @@ function Work() {
         <Project
             img={all4basket}
             title="All4Basket"
-            techno="🟧 HTML · 🎨 CSS · ⚡ JS"
+            techno="HTML · CSS · JS"
             description={
                 <>
                     Dans le cadre d'une situation d'apprentissage et d'évaluation au sein de l'IUT de Calais, j’ai créé une application web sur le basket aux Jeux Olympiques de 2024.
@@ -85,7 +85,7 @@ function Work() {
         <Project
             img={nuit_info}
             title="Nuit de l'info 2024"
-            techno="🟧 HTML · 🎨 CSS · ⚡ JS"
+            techno="HTML · CSS · JS"
             description={
                 <>
                     Participation à la Nuit de l'info le 5 décembre 2024, une compétition nationale qui réunit les étudiants pour travailler ensemble sur le développement d'une application web.
@@ -110,7 +110,7 @@ function Work() {
         <Project
             img={jeu_textuel}
             title="Jeu textuel"
-            techno="⚡ C"
+            techno="C"
             description={
                 <>
                     Dans le cadre d'une situation d'apprentissage et d'évaluation, j'ai créé avec un collègue un jeu textuel en langage C.
