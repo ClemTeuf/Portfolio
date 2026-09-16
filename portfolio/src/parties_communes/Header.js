@@ -17,7 +17,6 @@ function Header() {
             <div className="réseaux-sociaux">
                 <a href="https://www.linkedin.com/in/clément-dequidt/" target="_blank"><img src={linkedinImg} alt="LinkedIn" class="réseaux-sociaux-img" loading="lazy"/></a>
                 <a href="https://github.com/ClemTeuf" target="_blank"><img src={githubImg} alt="GitHub" class="réseaux-sociaux-img" loading="lazy"/></a>
-                <a target="_blank"><img src={instaImg} alt="Instagram" class="réseaux-sociaux-img" loading="lazy"/></a>
             </div>
 
             <div className="burger" id="burger">

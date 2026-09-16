@@ -19,14 +19,13 @@ function Index() {
             <div className="profil">
                 <div className="texte_profil">
                     <h1 className="texte_profil_h1">CLÉMENT DEQUIDT - Développeur web</h1>
-                    <h2><strong>Quand votre imagination prend vie sur le web</strong></h2>
                 </div>
                 <div className="image_profil">
                     <img src={photo_clem} alt="Clément Dequidt" loading="lazy"/>
                 </div>
             </div>
             <div id="présentation">
-                <p>Étudiant en informatique qui a toujours été passionné par le développement web, j'aime donner vie aux idées en créant des sites modernes, simples à utiliser et agréables à regarder.<br /> Je maîtrise les bases du développement de sites internet et je m’intéresse aussi bien à la partie visible pour l’utilisateur qu’à la partie technique qui assure leur bon fonctionnement et leur sécurité.<br /> Mon objectif principal : créer des projets qui allient le design, la performance et la fiabilité.</p> 
+                <p>Étudiant en troisième année en BUT informatique qui a toujours été passionné par le développement web, j'aime donner vie aux idées en créant des sites modernes, simples à utiliser et agréables à regarder.<br /> Je maîtrise les bases du développement de sites internet et je m’intéresse aussi bien à la partie visible pour l’utilisateur qu’à la partie technique qui assure leur bon fonctionnement et leur sécurité.<br /> Mon objectif principal : créer des sites web qui allient le design, la performance et la fiabilité.</p> 
             </div>
             <div id="compétences_clés">
                 <h2>Mes compétences clés</h2>

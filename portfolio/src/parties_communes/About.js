@@ -20,7 +20,7 @@ function About() {
             <h1>À PROPOS DE MOI</h1>
             <div className="about_profil">
                 <h2>Qui suis-je ?</h2>
-                <p>Je suis passionné par le développement web depuis mes débuts en informatique, même si je n’avais que très peu d’expérience à ce moment-là. Depuis, c’est devenu une évidence : je veux créer des sites web qui répondent aux besoins et aux rêves des clients.</p>
+                <p>Je suis passionné par le développement web depuis mes débuts en informatique, même si je n’avais que très peu d’expérience à ce moment-là. Depuis, c’est devenu une évidence : je souhaite créer des sites web qui répondent aux besoins et aux rêves des clients.</p>
                 <p>Je travaille principalement avec <strong>HTML/CSS, JavaScript et React</strong>, mais je suis également à l’aise avec la gestion côté serveur et la sécurité des applications web.</p>
                 <p>Mon objectif : créer des projets qui allient design et performance, tout en offrant une expérience utilisateur optimale.</p>
             </div>

@@ -6,6 +6,7 @@ import mon_pp from "../img/mon_pp.png";
 import all4basket from "../img/all4basket.jpeg";
 import nuit_info from "../img/nuit_info.png";
 import jeu_textuel from "../img/jeu_textuel.png";
+import nuit_info_2025 from "../img/nuit_info_2025.png"
 import "./Work.css";
 
 function Work() {
@@ -28,6 +29,31 @@ function Work() {
       <Header />
       <article>
         <h1>MES TRAVAUX</h1>
+
+        <Project
+            img={nuit_info_2025}
+            title="Nuit de l'info 2025"
+            techno="HTML · CSS · JS · MongoDB"
+            description={
+                <>
+                    Participation à la Nuit de l'info le 4 décembre 2025, une compétition nationale qui réunit les étudiants pour travailler ensemble sur le développement d'une application web.
+                    <br /><br />
+                </>
+            }
+            technos={
+                <>
+                    <br />HTML5 · CSS3 · JavaScript (front) · Gestion de la logique côté client · Gestion de base de données avec MongoDB
+                    <br /><br />
+                </>
+            }
+            competences={
+                <>
+                    <br />Applications web · Développement front-end · JavaScript · Développement back-end
+                </>
+            }
+            github="https://github.com/Pierre-Deldalle/Nuit-de-l-info-2025"
+            site="https://nuit-info-2025.netlify.app/"
+        />
 
         <Project
             img={mon_pp}
