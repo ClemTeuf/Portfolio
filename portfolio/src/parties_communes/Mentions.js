@@ -24,9 +24,7 @@ function Mentions() {
             <section>
                 <h2>Hébergement</h2>
                 <p>
-                    Le site est hébergé par [Nom de l’hébergeur]<br />
-                    Adresse : [Adresse de l’hébergeur]<br />
-                    Téléphone : [Numéro de l’hébergeur]
+                    Le site est hébergé par Netlify<br />
                 </p>
             </section>
 

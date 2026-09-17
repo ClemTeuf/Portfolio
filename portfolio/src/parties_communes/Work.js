@@ -7,6 +7,7 @@ import all4basket from "../img/all4basket.jpeg";
 import nuit_info from "../img/nuit_info.png";
 import jeu_textuel from "../img/jeu_textuel.png";
 import nuit_info_2025 from "../img/nuit_info_2025.png"
+import cdwebstudios from "../img/cdwebstudios_logo.png"
 import "./Work.css";
 
 function Work() {
@@ -29,6 +30,30 @@ function Work() {
       <Header />
       <article>
         <h1>MES TRAVAUX</h1>
+
+        <Project
+            img={cdwebstudios}
+            title="CD Web Studios"
+            techno="HTML · CSS · JS"
+            description={
+                <>
+                    Création d'une entreprise en freelance de développement et création de sites internet pour petites entreprises et indépendants, maintenance de sites web, intégration de solutions e-commerce.
+                    <br /><br />
+                </>
+            }
+            technos={
+                <>
+                    <br />React · NodeJS · HTML5 · CSS3 ·  JavaScript · MongoDB
+                    <br /><br />
+                </>
+            }
+            competences={
+                <>
+                    <br />Applications web · Développement front-end · JavaScript · Développement back-end
+                </>
+            }
+            site="https://cdwebstudios.fr/"
+        />
 
         <Project
             img={nuit_info_2025}

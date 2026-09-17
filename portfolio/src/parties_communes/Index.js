@@ -25,7 +25,9 @@ function Index() {
                 </div>
             </div>
             <div id="présentation">
-                <p>Étudiant en troisième année en BUT informatique qui a toujours été passionné par le développement web, j'aime donner vie aux idées en créant des sites modernes, simples à utiliser et agréables à regarder.<br /> Je maîtrise les bases du développement de sites internet et je m’intéresse aussi bien à la partie visible pour l’utilisateur qu’à la partie technique qui assure leur bon fonctionnement et leur sécurité.<br /> Mon objectif principal : créer des sites web qui allient le design, la performance et la fiabilité.</p> 
+                <p>Étudiant en troisième année en BUT informatique qui a toujours été passionné par le développement web, j'aime donner vie aux idées en créant des sites modernes, simples à utiliser et agréables à regarder.<br /> Je maîtrise les bases du développement de sites internet et je m’intéresse aussi bien à la partie visible pour l’utilisateur qu’à la partie technique qui assure leur bon fonctionnement et leur sécurité.<br /> Mon objectif principal : créer des sites web qui allient le design, la performance et la fiabilité.</p>
+                <br />
+                <p>En novembre 2025, je me suis lancé en freelance dans le développement web avec CD Web Studios, où je développe et crée des sites internet pour des petites entreprises et des indépendants, je fais également la maintenance des sites web, et l'intégration de solutions e-commerce.</p>
             </div>
             <div id="compétences_clés">
                 <h2>Mes compétences clés</h2>

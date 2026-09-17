@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9677b2be.css",
+    "main.js": "/static/js/main.63b376bf.js",
+    "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
+    "static/media/cdwebstudios_logo.png": "/static/media/cdwebstudios_logo.b47c3d3291284952dbee.png",
+    "static/media/nuit_info.png": "/static/media/nuit_info.64d728b76a63d1df5b65.png",
+    "static/media/photo_clem.jpg": "/static/media/photo_clem.17c22fb5c7a73dd9f79c.jpg",
+    "static/media/react.png": "/static/media/react.836f23266950f4794445.png",
+    "static/media/nuit_info_2025.png": "/static/media/nuit_info_2025.0c3f77e6774db6dbd188.png",
+    "static/media/jeu_textuel.png": "/static/media/jeu_textuel.df6a8a0121991f4b6c90.png",
+    "static/media/mon_pp.png": "/static/media/mon_pp.1042133738d09622ec57.png",
+    "static/media/all4basket.jpeg": "/static/media/all4basket.27fc8d5d6f0bc4005787.jpeg",
+    "static/media/linkedin.png": "/static/media/linkedin.adbde3a65c25d88a5b6a.png",
+    "static/media/avis-client.png": "/static/media/avis-client.48825ec71261b11436b8.png",
+    "static/media/securite.png": "/static/media/securite.369b66427593aa426ef5.png",
+    "static/media/conception-graphique.png": "/static/media/conception-graphique.94a4b4b10cb912cf269c.png",
+    "static/media/securite-web.png": "/static/media/securite-web.a2d49b8ad7ba1f7938d1.png",
+    "static/media/api.png": "/static/media/api.3b1f22a2427ec70c0742.png",
+    "static/media/insta.png": "/static/media/insta.c67fb3b9dd9eebda6d92.png",
+    "static/media/contenu-web.png": "/static/media/contenu-web.69ddad8ee619de951c48.png",
+    "static/media/nodejs.png": "/static/media/nodejs.09a558a790ef641b1f67.png",
+    "static/media/ui_ux.png": "/static/media/ui_ux.50a10d300361a34361f1.png",
+    "static/media/html_css.png": "/static/media/html_css.3da1b2655060c60d5fc0.png",
+    "index.html": "/index.html",
+    "main.9677b2be.css.map": "/static/css/main.9677b2be.css.map",
+    "main.63b376bf.js.map": "/static/js/main.63b376bf.js.map",
+    "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9677b2be.css",
+    "static/js/main.63b376bf.js"
+  ]
+}

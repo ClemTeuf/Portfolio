@@ -38,8 +38,8 @@ function About() {
             </div>
 
             <div className="cta">
-                <h2>Prêt à collaborer ?</h2>
-                <p>Si vous cherchez un développeur web passionné et créatif, n’hésitez pas à me contacter.</p>
+                <h2>Une question ?</h2>
+                <p>Si vous avez une question, n’hésitez pas à me contacter.</p>
                 <Link to="/contact" className="btn-cta">Contactez-moi</Link>
             </div>
         </article>
